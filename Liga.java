@@ -4,12 +4,15 @@ public class Liga
 	private String nombre;
 	private Equipo[] clasificacion;
 	
-	public Liga(Equipo []equipos ) 
+	//metodo constructor de Liga
+	
+	public Liga(Equipo []equipos ) //variable que necesitamos de crearEquipos()
 	{
 		this.nombre= "La Liga";
 		this.clasificacion = equipos;
 	}
 	
+	//metodos get y set
 	
 	public Equipo[] getClasificacion() {
 		return clasificacion;
